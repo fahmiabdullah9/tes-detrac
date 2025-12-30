@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/detk7593/public_html/tes.detrac.id/
+    - /bin/cp -R * $DEPLOYPATH
